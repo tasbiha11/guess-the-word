@@ -57,7 +57,7 @@ function initGame(e) {
     //user found all the letters correct
     setTimeout(() => {
         if (correctLetters.length === word.length) {
-            alert(`Congratulations ! Word Found  ${word.toUpperCase()}`);
+            alert(`Congratulations ! Word Found ! ${word.toUpperCase()}`);
             return randomWord(); //function call to reset word
         }
         else if (maxGuess < 1) {     //no more guess left
