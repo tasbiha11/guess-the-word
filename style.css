@@ -18,6 +18,38 @@ body {
     background-size: cover;
 }
 
+.popup {
+    background-color: #8FBC8F;
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+}
+
+li {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.popup h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 20px;
+    color: azure;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .wrapper {
     width: 450px;
     background-color: rgb(240, 255, 255);
